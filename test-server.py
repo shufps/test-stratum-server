@@ -10,8 +10,14 @@ HOST = '0.0.0.0'
 PORT = 4444
 
 # this one gets found by bm1368s
-with open('879008.json', 'r') as f:
+#with open('879008.json', 'r') as f:
+#    data = json.loads(f.read())
+
+
+# q1373
+with open('955474.json', 'r') as f:
     data = json.loads(f.read())
+
 
 NOTIFY_PARAMS = data['notify']['params']
 
